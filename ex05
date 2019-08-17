@@ -1,0 +1,7 @@
+<?php
+  $fahr = readline ('Informe uma temperatura em ºF:');
+  $celsius = (($fahr - 32)*5)/9;
+  $kel = ($celsius + 273.15);
+  
+  echo "A temperatura de $fahr ºF em Kelvin é: $kel K";
+?>
