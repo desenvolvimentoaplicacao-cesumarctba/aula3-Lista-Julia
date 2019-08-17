@@ -1,0 +1,6 @@
+<?php
+  $celsius = readline ('Informe uma temperatura em ºC:');
+  $fahr = (9 * $celsius + 160)/5;
+  
+  echo "A temperatura de $celsius ºC em Fahrenheit é: $fahr ºF";
+?>
