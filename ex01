@@ -1,0 +1,11 @@
+<?php
+  $tempo = readline ('Qual o tempo gasto na viagem?');
+  $veloMed = readline ('Qual a velocidade da viagem?');
+
+  $dist = $tempo * $veloMed;
+
+  $litros = $dist/12;
+
+  echo "A distância percorrida foi de:", $dist.PHP_EOL;
+  echo "A quantidade de litros uasdo foi de:", $litros;
+?>
