@@ -1,0 +1,6 @@
+<?php
+  $celsius = readline ('Informe uma temperatura em ºC:');
+  $kel = ($celsius + 273.15);
+  
+  echo "A temperatura de $celsius ºC em Kelvin é: $kel K";
+?>
